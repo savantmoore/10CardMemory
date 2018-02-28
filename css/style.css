@@ -3,9 +3,9 @@
         height:100px;
         float:left;
         margin:5px;
-        color:blue;
+        color:black;
         padding:5px;
-        border:solid 1px blue;
+        border:solid 1px gold;
       }
 
       #Playfield{
@@ -13,7 +13,9 @@
       }
 
       .down{
-        background:blue;
+        background-image: url(../images/card.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
       }
 
       .clear{
@@ -27,7 +29,6 @@
 
       #playerInfo{
         padding:15px 0 35px 0;
-      }
 
       #player1 p, #player2 p{
         float:left;
