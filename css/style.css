@@ -1,0 +1,38 @@
+.card{
+        width:65px;
+        height:100px;
+        float:left;
+        margin:5px;
+        color:blue;
+        padding:5px;
+        border:solid 1px blue;
+      }
+
+      #Playfield{
+        width: 600px;
+      }
+
+      .down{
+        background:blue;
+      }
+
+      .clear{
+        clear:both;
+      }
+
+      p {
+        margin:0;
+        padding: 5px 15px 0 5px;
+      }
+
+      #playerInfo{
+        padding:15px 0 35px 0;
+      }
+
+      #player1 p, #player2 p{
+        float:left;
+      }
+
+      .active{
+        background: yellow;
+      }
