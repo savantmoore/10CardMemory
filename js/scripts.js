@@ -25,7 +25,7 @@ function twoCardsFaceUp(){
       }
 
       function allCardsMatched(){
-        return ($(".matched").length == 24)
+        return ($(".matched").length == 20)
       }
 
       function flipCardsBackOver(){
@@ -78,7 +78,7 @@ function twoCardsFaceUp(){
         } else if (playerOnePoints < playerTwoPoints){
           return "Player two won!";
         } else {
-          return "An honourable draw!";
+          return "Double or nothing!";
         }
       }
 
